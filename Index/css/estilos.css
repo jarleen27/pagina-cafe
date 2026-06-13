@@ -1,0 +1,80 @@
+body{
+    font-family: Arial;
+    margin:20px;
+}
+
+/* COLOR */
+.color-texto{
+    color:brown;
+}
+
+/* BACKGROUND COLOR */
+.fondo{
+    background-color: beige;
+}
+
+/* TABLA */
+table, th, td{
+    border:1px solid black;
+    border-collapse: collapse;
+    padding:10px;
+}
+
+/* PADDING */
+.padding{
+    border:2px solid black;
+    padding:20px;
+}
+
+/* MARGIN */
+.margin{
+    border:2px solid red;
+    margin:30px;
+}
+
+/* TEXT ALIGN */
+.alineado{
+    border:2px solid blue;
+    text-align:center;
+}
+
+/* FONT SIZE */
+.tamano{
+    font-size:25px;
+}
+
+/* HOVER */
+.hover1:hover{
+    color:white;
+    background-color:brown;
+    font-size:20px;
+}
+
+.hover2:hover{
+    color:yellow;
+    background-color:black;
+    font-size:20px;
+}
+
+/* ACTIVE (CLICK) */
+.active1:active{
+    color:white;
+    background-color:green;
+    font-size:22px;
+}
+
+.active2:active{
+    color:white;
+    background-color:red;
+    font-size:22px;
+}
+
+/* POSITION FIXED */
+.fijo{
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    border:2px solid black;
+    background:white;
+    padding:5px;
+}
